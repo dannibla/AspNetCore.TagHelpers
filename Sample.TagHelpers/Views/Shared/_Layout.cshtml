@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
-    <partial name="_CookieConsentPartial" />
     @RenderBody()
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <partial name="_ValidationScriptsPartial" />
     @RenderSection("Scripts", required: false)
 </body>
 </html>
